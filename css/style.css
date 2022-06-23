@@ -6,13 +6,13 @@
 
 :root {
   --font-primary: 'Poppins', sans-serif;
-  --font-secondary: 'Arvo', serif;
+  --font-secondary: 'Ubuntu', monospace;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --bg-color: #ffbbf8;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
-  --header-shadow: #000 0px 0px 5px;
+  --accent-color: #63a9ff;
+  --header-shadow: rgb(50, 157, 245) 0px 0px 5px;
 }
 
 * {
@@ -33,7 +33,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 960px;
+  max-width: 10000px;
   margin: 0 auto;
   padding: 1rem 2rem;
 }
@@ -64,7 +64,7 @@ header .container {
   background: var(--btn-bg-color);
   color: var(--accent-color);
   font-family: var(--font-secondary);
-  font-style: italic;
+  font-style: normal;
   font-weight: bold;
   font-size: 1rem;
   text-transform: capitalize;
