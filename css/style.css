@@ -4,12 +4,15 @@
 
 /* GLOBAL STYLES */
 
-
-
+/*html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+*/
 :root {
   --font-primary: 'Poppins', sans-serif;
-  --font-secondary: 'Ubuntu', monospace;
-  --font-code: 'Roboto', monospace;
+  --font-secondary: 'Poppins', sans-serif;
+  --font-code: 'Ubuntu', monospace;
   --bg-color: #ffa6f6;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
@@ -29,7 +32,7 @@
 .header {
   overflow: hidden;
   background-color: #63a9ff;
-  padding: 20px 5px;
+  padding: 15px 5px;
 }
 
 /* Style the header links */
