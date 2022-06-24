@@ -257,3 +257,25 @@ section {
   }
 }
  
+
+
+.container {
+  max-width: 1600px;
+  padding: 50px 20px;
+  margin: 0 auto;
+}
+
+#gallery{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  
+}
+
+
+.galleryImg {
+  max-width: 100px;
+  border-radius: 10px;
+  position: relative;
+  transition: transform 250ms;
+  cursor: pointer;
+}
